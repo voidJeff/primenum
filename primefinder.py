@@ -1,14 +1,21 @@
 rangenum = int(input("Set a limit for finding prime numbers "))
-factor = 1
-num = 1
-booo = 0
+factor = 2
+num = 2
+boov = 0
+print(2)
 while rangenum > 0:
-    factor += 1
     num += 1
-    if num%factor == 0:
-        booo = 0
+    boov = 0
+    if num%2 != 0:                      #if 2 does not divide it
+        boov = 0
+        while factor < rangenum:
+            if num%factor != 0:         #if the current factor does not divide it
+                boov += 0
+            else:
+                boov -= 1
+            factor += 1                 #change the testing factor
     else:
-        booo = 1
-    if booo == 1:
+        boov -= 1
+    if boov == 0:
         print(num)
     rangenum -= 1
