@@ -1,9 +1,8 @@
-rangenum = int(input("Set a limit for finding prime numbers "))
-factor = 2
-num = 2
-boov = 0
-print(2)
-while rangenum > 0:
+lim = int(input("Set a limit for finding prime numbers "))
+i = 2
+a = 1
+print(2, end="")
+while :
     num += 1
     boov = 0
     if num%2 != 0:                      #if 2 does not divide it
