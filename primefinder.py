@@ -10,4 +10,12 @@ while num[n]**2 <= lim:
     n += 1
     a = num[n]
 print(num)
+pac = []
+for i in num:
+    if 600851475143%i == 0:
+        pac.append(i)
+pac.sort(reverse = True)
+print(pac[0])
+        
+   
     
