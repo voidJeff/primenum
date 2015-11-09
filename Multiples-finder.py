@@ -1,5 +1,5 @@
 i = 2
-num = int(input("Enter the number: ")
+num = int(input("Enter the number: "))
 multiples = []
 while i < num / 2:
     if num % i == 0:
