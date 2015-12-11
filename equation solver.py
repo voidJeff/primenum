@@ -10,6 +10,7 @@ while i <= num:
         num = num / i
     else:
         i += 1
+print(list(multiples))
 while a <= len(multiples):
     repeat_ = multiples.count(multiples[a])
     if repeat_%2 == 0:
@@ -19,5 +20,5 @@ while a <= len(multiples):
         factors.append(repeat_)
     
     a += repeat_
-print(list(multiples))
+
 print(repeat_)
