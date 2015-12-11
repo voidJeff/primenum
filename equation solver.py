@@ -23,3 +23,4 @@ while a <= len(multiples) - 1:
     a += repeat_
 
 print(b)
+print(factors)
