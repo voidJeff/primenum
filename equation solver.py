@@ -3,7 +3,7 @@ a = 0
 b = 1
 num = int(input("Enter the number: "))
 multiples = []
-factors = []
+factors = 1
 while i <= num:
     if num % i == 0:
         multiples.append(i)
@@ -18,7 +18,7 @@ while a <= len(multiples) - 1:
         b = b * multiples[a] * repeat_ / 2
     else:
         b = b * multiples[a] * (repeat_ - 1)/2
-        factors.append(repeat_)
+        factors = factors * multiples[a]
     
     a += repeat_
 
