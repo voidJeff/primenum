@@ -15,12 +15,11 @@ while a <= len(multiples) - 1:
     repeat_ = multiples.count(multiples[a])
     print(repeat_)
     if repeat_%2 == 0:
-        b = b * repeat_ / 2
+        b = a * repeat_ / 2
     else:
-        b = b * (repeat_ - 1)/2
+        b = a * (repeat_ - 1)/2
         factors.append(repeat_)
     
     a += repeat_
 
 print(b)
-print(repeat_)
