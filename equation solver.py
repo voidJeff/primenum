@@ -11,7 +11,7 @@ while i <= num:
     else:
         i += 1
 print(list(multiples))
-while a <= len(multiples):
+while a <= len(multiples) - 1:
     repeat_ = multiples.count(multiples[a])
     if repeat_%2 == 0:
         b = b * repeat_ / 2
