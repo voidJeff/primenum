@@ -13,6 +13,7 @@ while i <= num:
 print(list(multiples))
 while a <= len(multiples) - 1:
     repeat_ = multiples.count(multiples[a])
+    print(repeat_)
     if repeat_%2 == 0:
         b = b * repeat_ / 2
     else:
@@ -21,4 +22,5 @@ while a <= len(multiples) - 1:
     
     a += repeat_
 
+print(b)
 print(repeat_)
