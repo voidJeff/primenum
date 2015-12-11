@@ -18,6 +18,6 @@ while a <= len(multiples):
         b = b * (repeat_ - 1)/2
         factors.append(repeat_)
     
-    a = a + repeat_ - 1
+    a += repeat_
 print(list(multiples))
 print(repeat_)
