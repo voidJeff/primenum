@@ -24,7 +24,7 @@ while num[n]**2 <= lim:
     n += 1
     a = num[n]
 b = len(num)
-while b >= 0:
+while b >= 0 and lim > 1:
     if lim % num[-b] == 0:
         multiples.append(num[-b])
         lim = lim/num[-b]
