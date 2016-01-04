@@ -1,16 +1,17 @@
-'''
+
 i = 2
-num = int(input("Enter the number: "))
-multiples = []
-while i <= num:
-    if num % i == 0:
-        multiples.append(i)
-        num = num / i
+num_ = int(input("Enter the number: "))
+multiples_ = []
+print("Loading...")
+while i <= num_:
+    if num_ % i == 0:
+        multiples_.append(i)
+        num_ = num_ / i
     else:
         i += 1
-print(list(multiples))
-'''
+print(list(multiples_))
 
+'''
 multiples = []
 lim = int(input("Enter the number: "))
 num = list(range(2, lim+1))
@@ -31,4 +32,4 @@ while b >= 0 and lim > 1:
     else:
         b -= 1
 print(list(multiples))        
-    
+'''  
