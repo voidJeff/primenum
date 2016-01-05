@@ -24,7 +24,9 @@ while a <= len(multiples) - 1:
     a += repeat_
 if under != 1:
     print("{0}√{1}".format(int(b), under))
+elif under == 1:
+    print(int(b))
 elif b == 1:
     print("√{1}".format(under))
 else:
-    print(int(b))
+    
