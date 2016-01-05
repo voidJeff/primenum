@@ -2,7 +2,7 @@ i = 2
 a = 0
 b = 1
 num = int(input("Enter the number: "))
-multiples = [1]
+multiples = []
 under = 1
 factors = 1
 while i <= num:
@@ -25,4 +25,4 @@ while a <= len(multiples) - 1:
             under = under * multiples[a]
     a += repeat_
 
-print("{0}√{1}".format(b, under))
+print("{0}√{1}".format(int(b), under))
