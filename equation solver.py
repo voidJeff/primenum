@@ -24,11 +24,12 @@ while a <= len(multiples) - 1:
     a += repeat_
 
 if under != 1:
-    print("{0}√{1}".format(int(b), under))
+    if b != 1:
+        print("{0}√{1}".format(int(b), under))
+    else:
+        print("√{1}".format(under))
 elif under == 1:
     print(int(b))
-elif b == 1:
-    print("√{1}".format(under))
 else:
     print("Imaginary number not supported yet")
     
