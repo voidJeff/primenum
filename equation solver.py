@@ -25,4 +25,4 @@ while a <= len(multiples) - 1:
             under = under * multiples[a]
     a += repeat_
 
-print({0}"√"{1}).format(b, under)
+print("{0}√{1}").format(b, under)
