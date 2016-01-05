@@ -22,7 +22,7 @@ while a <= len(multiples) - 1:
             b = b * multiples[a] * (repeat_ - 1)/2
             under = under * multiples[a]
     a += repeat_
-if under != 1 & b != 1:
+if under != 1 and b != 1:
     print("{0}√{1}".format(int(b), under))
 elif under == 1:
     print(int(b))
