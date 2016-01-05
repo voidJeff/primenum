@@ -27,7 +27,7 @@ if under != 1:
     if b != 1:
         print("{0}√{1}".format(int(b), under))
     else:
-        print("√{1}".format(under))
+        print("√{0}".format(under))
 elif under == 1:
     print(int(b))
 else:
