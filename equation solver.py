@@ -2,7 +2,7 @@ i = 2
 a = 0
 b = 1
 num = int(input("Enter the number: "))
-multiples = [1]
+multiples = []
 under = 1
 factors = 1
 while i <= num:
@@ -23,12 +23,12 @@ while a <= len(multiples) - 1:
             under = under * multiples[a]
     a += repeat_
 
-if b == 1:
-    print("√{1}".format(under))
-elif under != 1:
+if under != 1:
     print("{0}√{1}".format(int(b), under))
 elif under == 1:
     print(int(b))
+elif b == 1:
+    print("√{1}".format(under))
 else:
     print("Imaginary number not supported yet")
     
