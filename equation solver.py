@@ -11,10 +11,8 @@ while i <= num:
         num = num / i
     else:
         i += 1
-print(list(multiples))
 while a <= len(multiples) - 1:
     repeat_ = multiples.count(multiples[a])
-    print(repeat_)
     if repeat_ < 2:
         under = under * multiples[a] 
     else:
