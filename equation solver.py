@@ -29,4 +29,5 @@ elif under == 1:
 elif b == 1:
     print("√{1}".format(under))
 else:
+    print("Imaginary number not supported yet")
     
