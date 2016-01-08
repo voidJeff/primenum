@@ -35,20 +35,25 @@ print(list(multiples))
 ''' 
 '''
 i = 2
-num_ = 6
-while num_ < 10:
-    multiples_ = [1]
+num_ = 4
+multiples_ = [1]
+while num_  <= 3000:
+    num = num_
     while i <= num_:
         if num_ % i == 0:
             multiples_.append(i)
             num_ = num_ / i
         else:
             i += 1
+    num_ = num
     i = 2
-    sum_ = sum(multiples_)
-    if sum_ == num_:
-        print(num_)
+    #print(list(multiples_))
+    print(sum(multiples_))
+    #if b == num_:     
+        #print(sum(multiples_))
+    multiples_ = [1]
     num_ += 1
+
     
 
     '''
