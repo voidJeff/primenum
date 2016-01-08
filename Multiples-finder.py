@@ -34,6 +34,8 @@ while b >= 0 and lim > 1:
 print(list(multiples))        
 ''' 
 '''
+perfect numbers
+
 i = 2
 num_ = 4
 multiples_ = [1]
