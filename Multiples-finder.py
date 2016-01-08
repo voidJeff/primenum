@@ -32,4 +32,23 @@ while b >= 0 and lim > 1:
     else:
         b -= 1
 print(list(multiples))        
-'''  
+''' 
+'''
+i = 2
+num_ = 6
+while num_ < 10:
+    multiples_ = []
+    print("Loading...")
+    while i <= num_:
+        if num_ % i == 0:
+            multiples_.append(i)
+            num_ = num_ / i
+        else:
+            i += 1
+        i = 2
+    sum_ = sum(multiples_)
+    if sum_ == num_:
+        print(num_)
+    num_ += 1
+    '''
+    
